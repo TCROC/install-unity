@@ -62,6 +62,12 @@ public class Configuration
         + "/Applications/Unity {major}.{minor}.{patch}{type}{build};"
         + "/Applications/Unity {major}.{minor}.{patch}{type}{build} ({hash})";
 
+    [Description("Mac installation paths, separated by ; (first non-existing will be used, variables: {major} {minor} {patch} {type} {build} {hash}).")]
+    public string installPathWindows = 
+          @"C:\Program Files\Unity {major}.{minor};"
+        + @"C:\Program Files\Unity {major}.{minor}.{patch}{type}{build};"
+        + @"C:\Program Files\Unity {major}.{minor}.{patch}{type}{build} ({hash})";
+
     // -------- Serialization --------
 
     /// <summary>

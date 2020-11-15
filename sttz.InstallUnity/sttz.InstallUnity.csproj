@@ -1,11 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.0;net472</TargetFrameworks>
     <LangVersion>7.1</LangVersion>
     <RootNamespace>sttz.InstallUnity</RootNamespace>
   </PropertyGroup>
-
   <PropertyGroup Label="Package">
     <Version>2.8.2</Version>
     <Authors>Adrian Stutz (sttz.ch)</Authors>
@@ -17,13 +15,12 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Unity;Installer</PackageTags>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="ini-parser" Version="2.5.2" NoWarn="NU1701" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="ini-parser" Version="2.5.2" NoWarn="NU1701"/>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1"/>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1"/>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2"/>
+    <PackageReference Include="System.Net.Http" Version="4.3.4"/>
+    <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0"/>
   </ItemGroup>
-
 </Project>
